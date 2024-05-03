@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Main Div Start -->
+    <div>
+        <!-- Navbar Start -->
+        <div>
+            <div>
+                <img src="data:image/png;base64,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"
+                    height="50" alt="">
+            </div>
+            <div>
+                <d>
+                    <a href="" target="_blank">Home</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">About</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">Services</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">Contact</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">FAQs</a>
+                </d>
+            </div>
+        </div>
+        <!-- Navbar  End -->
+<hr>
+        <!-- Hero Section Start -->
+        <div>
+            <img src="https://www.carscoops.com/wp-content/uploads/2021/06/Toyota-Supra-Redesign-2-Carscoops-1024x555.jpg"
+                height="300" alt="">
+        </div>
+        <!-- Hero Section End -->
+
+        <!-- About Section Start -->
+        <div>
+            <div>
+                <h3>
+                    About Us
+                </h3>
+            </div>
+            <div>
+                <u>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur odio necessitatibus
+                        laudantium laborum corrupti omnis voluptatem, quis repellendus dicta?
+                    </p>
+                </u>
+            </div>
+            <div>
+                <img src="https://studiorsr.com/cdn/shop/articles/James_supra_7_770x500.png?v=1684970399" height="100"
+                    alt="">
+            </div>
+        </div>
+        <!-- About Section End -->
+
+        <!-- Service Section Start -->
+        <div>
+            <div>
+                <h2>
+                    OUR SERVICES
+                </h2>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <img src="https://www.motortrend.com/uploads/2023/06/2024-Toyota-GR-Supra-45th-Anniversary-Edition_KL_ReSized_2.jpg"
+                        height="200" alt="">
+                </a>
+                <h3>
+                    Service 1
+                </h3>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-90ebb612b2f65670ffc0d6bfa95976a2" height="200"
+                        alt="">
+                </a>
+                <h3>
+                    Service 2
+                </h3>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <img src="https://cdn.trackdays.co.uk/cdn-cgi/image/format=auto,fit=contain/product/toyota-supra-gr-2023-14532-main.jpg"
+                        height="237" alt="">
+                </a>
+                <h3>
+                    Service 3
+                </h3>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <img src="https://www.usnews.com/object/image/0000018e-5866-d6a1-a3df-5d7e34080000/2024-grsupra-45thanniversaryed-mikanblast-h-1.jpg?update-time=1710880076488&size=responsiveGallery"
+                        height="213" alt="">
+                </a>
+                <h3>
+                    Service 4
+                </h3>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <img src="https://cdcssl.ibsrv.net/cimg/www.carsdirect.com/1068x712_85/887/supra-687887.jpg"
+                        height="200" alt="">
+                </a>
+                <h3>
+                    Service 5
+                </h3>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <img src="https://toyotagazooracing.com/pages/contents/jp/gr/assets/img/supra/top/nav_genevams18_pc.jpg"
+                        height="272" alt="">
+                </a>
+                <h3>
+                    Service 6
+                </h3>
+            </div>
+        </div>
+        <!-- Service Section End -->
+
+        <!-- Contact Section Start  -->
+        <div>
+            <div>
+                <h2>
+                    CONTACT US
+                </h2>
+            </div>
+            <div>
+                <i>
+                    digijayashrestha4@gmail.com
+                </i>
+                <div>
+                    <p>
+                        OR
+                    </p>
+                </div>
+                <div>
+                    <i>
+                        9800911067
+                    </i>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Section End -->
+<hr>
+        <!-- Footrt Section Start -->
+        <div>
+            <div>
+                <img src="data:image/png;base64,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"
+                    height="50" alt="">
+            </div>
+            <div>
+                <d>
+                    <a href="" target="_blank">Home</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">About</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">Services</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">Contact</a>
+                </d>
+                <d>
+                    <a href="" target="_blank">FAQs</a>
+                </d>
+            </div>
+        </div>
+        <!-- Footer Section End -->
+    </div>
+    <!-- Main Div End -->
+</body>
+
+</html>
